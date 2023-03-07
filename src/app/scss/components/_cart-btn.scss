@@ -1,0 +1,47 @@
+.cart-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 100%;
+  background-color: $btn-color;
+  border-radius: 50px;
+  color: $fnt-color-btn;
+  font-weight: 700;
+  cursor: pointer;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 25px;
+  }
+
+  &__amount {
+    &::after {
+      content: ' \20BD';
+    }
+  }
+
+  &__separation {
+    width: 1px;
+    height: 25px;
+    background-color: $fnt-color-btn;
+    opacity: 25%;
+  }
+
+  &__cart {
+    display: flex;
+    align-items: center;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &__quantity {
+    margin-left: 8px;
+  }
+}

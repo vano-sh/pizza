@@ -1,0 +1,45 @@
+.sort {
+  position: relative;
+  font-size: 14px;
+
+  &__label {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    cursor: pointer;
+  }
+
+  &__text {
+    font-weight: 700;
+  }
+
+  &__selected {
+    display: block;
+    border-bottom: 1px solid $fnt-color-active-btn;
+    color: $fnt-color-active-btn;
+  }
+
+  &__popup {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px #00000020;
+  }
+
+  &__list {
+  }
+
+  &__item {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+      font-weight: 700;
+      color: $fnt-color-active-btn;
+      background: $bg-color-sort;
+    }
+  }
+}

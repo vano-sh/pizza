@@ -1,0 +1,25 @@
+.categories {
+  height: 45px;
+  color: $fnt-color-primary;
+  font-weight: 700;
+
+  &__wrapper {
+    display: flex;
+    gap: 9px;
+    height: 100%;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    background-color: $btn-color-categories;
+    border-radius: 30px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $btn-color-categories-active;
+      color: $btn-color-categories;
+    }
+  }
+}
