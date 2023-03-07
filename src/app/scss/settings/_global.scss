@@ -3,3 +3,7 @@ body {
   color: $fnt-color-primary;
   background-color: $bg-color;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

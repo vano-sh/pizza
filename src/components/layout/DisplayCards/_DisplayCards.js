@@ -8,6 +8,13 @@ export const DisplayCards = () => {
       <h1 className={`${className}__title`}>Все пиццы</h1>
       <div className={`${className}__cards`}>
         <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </section>
   )
