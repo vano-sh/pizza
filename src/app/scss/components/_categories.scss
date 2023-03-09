@@ -3,13 +3,13 @@
   color: $fnt-color-primary;
   font-weight: 700;
 
-  &__wrapper {
+  &__list {
     display: flex;
     gap: 9px;
     height: 100%;
   }
 
-  &__btn {
+  &__item {
     display: flex;
     align-items: center;
     padding: 0 25px;
@@ -17,6 +17,7 @@
     border-radius: 30px;
     cursor: pointer;
 
+    &.active,
     &:hover {
       background-color: $btn-color-categories-active;
       color: $btn-color-categories;
