@@ -4,13 +4,19 @@
   font-weight: 700;
 
   &__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 9px;
     height: 100%;
   }
 
   &__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding: 0 25px;
     background-color: $btn-color-categories;
