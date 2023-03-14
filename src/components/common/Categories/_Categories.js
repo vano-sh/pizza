@@ -1,6 +1,9 @@
+import { useState } from 'react'
 import { CategoriesBtn } from './components/CategoriesBtn'
 
 export const Categories = () => {
+  const [active, setActive] = useState(0)
+
   const className = 'categories'
   const categories = [
     'Все',
@@ -13,13 +16,13 @@ export const Categories = () => {
 
   return (
     <div className={className}>
-      <div className={`${className}__wrapper`}>
+      <ul className={`${className}__list`}>
         {categories.map((category) => (
           <CategoriesBtn className={className} key={category}>
             {category}
           </CategoriesBtn>
         ))}
-      </div>
+      </ul>
     </div>
   )
 }
