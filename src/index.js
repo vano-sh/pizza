@@ -5,6 +5,7 @@ import { App } from 'app'
 
 const $root = document.getElementById('root')
 const root = createRoot($root)
+//some code...
 
 root.render(
   <StrictMode>
