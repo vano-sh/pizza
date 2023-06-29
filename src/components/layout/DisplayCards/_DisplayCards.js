@@ -3,6 +3,7 @@ import { Card } from './components/Card'
 export const DisplayCards = () => {
   const className = 'display-cards'
 
+  // Other code...
   return (
     <section className={className}>
       <h1 className={`${className}__title`}>Все пиццы</h1>
